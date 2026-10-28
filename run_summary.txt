@@ -1,0 +1,26 @@
+QUENCH-DETECTION SIMULATION
+All signals and settings are synthetic and illustrative.
+Number of samples: 1000
+Time step: 0.100 ms
+Quench-like onset: 30.0 ms
+Noise standard deviation: 20.0 mV
+Threshold: 100.0 mV
+Validation period: 10.0 ms
+Example simple trigger: 47.800 ms
+Example validation trigger: 71.500 ms
+
+Plots:
+01_signal_examples.png
+02_threshold_sweep.png
+03_validation_sweep.png
+04_noise_sweep.png
+05_robustness_heatmap.png
+06_latency_tradeoff.png
+
+CSV results:
+threshold_sweep.csv
+validation_sweep.csv
+noise_sweep.csv
+robustness_heatmap.csv
+
+Limits: no magnet circuit, quench propagation, thermal model, real sensor model, or CERN measurements.
