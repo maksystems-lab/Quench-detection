@@ -1,9 +1,6 @@
 """Quench-detection benchmark using synthetic voltage signals.
 
-Run:
-    py quench_detection_simulator.py
-
-Needs NumPy and Matplotlib. No real CERN data is used.
+Needs NumPy and Matplotlib.
 """
 
 from pathlib import Path
@@ -13,7 +10,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# Main settings. Change these for a single-run experiment.
+# Main settings. to be changed  for a single run experiment.
+
 DT = 1e-4
 T_END = 0.100
 T_QUENCH = 0.030
